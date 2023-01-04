@@ -1,0 +1,23 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  font-size: 1.2vw;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0.5vw 0.5vw 2vw -1vw rgba(66, 68, 90, 1);
+  -webkit-box-shadow: 0.5vw 0.5vw 2vw -1vw rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0.5vw 0.5vw 2vw -1vw rgba(66, 68, 90, 1);
+  padding: 5vw;
+  border-radius: 1vw;
+  display: block;
+  width: 40vw;
+  margin: 10vw 0;
+}
