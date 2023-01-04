@@ -60,8 +60,14 @@ const NewTask: FC<INewTask> = ({
       ) : (
         <label>{inputText}</label>
       )}
-      <button onClick={() => editTask(id)}>{editButton}</button>
-      <button onClick={() => deleteTask(id)}>Delete</button>
+      {!isCompleted && (
+        <button className="edit" onClick={() => editTask(id)}>
+          {editButton}
+        </button>
+      )}
+      <button className="delete" onClick={() => deleteTask(id)}>
+        Delete
+      </button>
     </li>
   );
 };

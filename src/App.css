@@ -140,28 +140,7 @@ input[type="text"]:focus {
   display: none;
 }
 
-/* Footer */
-footer {
-  position: fixed;
-  bottom: 0;
-  right: 1vw;
-  color: #888;
-  font-size: 0.6em;
-}
-
-footer a {
-  color: #888;
-}
-
 @media only screen and (orientation: portrait) {
-  body {
-    font-size: 2.2vw;
-  }
-
-  .container {
-    width: 75vw;
-  }
-
   /* Heading */
   .title-section,
   label[for="new-task"] {
@@ -181,11 +160,5 @@ footer a {
   /* Task list element styles */
   input[type="text"] {
     border-radius: 1.2vw;
-  }
-
-  /* Footer */
-  footer {
-    position: relative;
-    font-size: 0.7em;
   }
 }
