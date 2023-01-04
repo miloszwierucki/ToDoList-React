@@ -136,10 +136,6 @@ input[type="text"]:focus {
   color: #888;
 }
 
-#completed-tasks .edit {
-  display: none;
-}
-
 @media only screen and (orientation: portrait) {
   /* Heading */
   .title-section,

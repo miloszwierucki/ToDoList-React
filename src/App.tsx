@@ -77,6 +77,7 @@ function App() {
   const [allTasks, setAllTasks] = useState([] as ITask[]);
 
   const addNewTasks = () => {
+    if (addInput === "") return;
     setAllTasks([
       ...allTasks,
       {
